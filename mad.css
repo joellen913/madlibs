@@ -1,0 +1,83 @@
+  @import 'https://fonts.googleapis.com/css?family=Raleway';
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;500&family=Montserrat:wght@500&family=Poppins:wght@500&family=Roboto+Condensed:wght@300&display=swap');
+     body{background-image:url("w1.jpg");background-size: cover; position:absolute;}
+   h3{color:white; text-shadow: 2px 2px black;}
+   label{color: #F1AEBB; font-family:'Roboto Condensed', sans-serif; display: block;
+  margin-left: auto;
+  margin-right: auto;
+font-size: 50px; text-shadow:2px 2px white;}
+   span{display: block;
+  margin-left: auto;
+  margin-right: auto;
+font-size: 50px; text-shadow:2px 2px grey;}
+
+ .result{text-align:center; font-size:50px;}
+
+ .centered{margin:auto;}
+
+.button-74 {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-74:hover {
+  background-color: #fff;
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
+
+body{margin:center; text-align:center;}
+
+img{display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 36%;}
+
+.typewriter label {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: none; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
